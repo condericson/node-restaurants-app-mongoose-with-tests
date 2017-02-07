@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: DOdNufIn3+95MP2HFvNfkYeXkf83FZcBplVg9YSlFxhnzZQ6cuIPuvGE8eL8ERhJ78UTixYzStNf3eB5YlqUigqhnp03+AEeEtglR7fHdjHD8HYZH1VQcsSp78lXG6GrUGklTb6O0CIX7NIFNjRK7kHFVMLYwY0wyEZH89fmm8ckk0DvP4YpQYffid0K1ftoObYe+C5kcR+MnFXLbToh/k+uDWIQ/nF97I0Zrh4bURhFCDR+D4qfvIyq/jI/BINWofOfP85jtiJMLpnDj4rAl6cR+eel257VTayupRUY5mFTBF211jkWEN0of4tRlq4r+9njeTYu0pGgqRgzyvRfpaEfbRjXavGmYNNqVfVtLnYhCzpFp+UNY4u1qm6I+4z+LArKzS/GrpVZ+RTBNTUaPWPqmDnoKrSjcJY/YgyxbWfftD6khJt3oIz5v6BowWTsSY6Yb81rd9arZnsyJfYt4srKj/Imd55K6iUrAFM8ZfLoYmcwdXGi/W4RQMRL/L6Dm3bMfWczQhQ7FkYICmydD6tGVyTKVFrjc4QT4jKX6QipcVJEymbiX9EbtRSm/t1DHhYYzTt+hTtvlOqjPs6ZKK8+2tyf47APQCfgeGcaueQXKOqH1v+NENadIxhlje3IKZ6wgeP+29lX33mKF/bqUK2BDoL/H3vy3JmXTcZJpsA=
+  app: cryptic-plains-92180
+  on:
+    repo: condericson/node-restaurants-app-mongoose-with-tests
