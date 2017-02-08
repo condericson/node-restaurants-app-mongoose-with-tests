@@ -6,6 +6,6 @@ deploy:
   provider: heroku
   api_key:
     secure: MlcvIl7v5vMe/OpXASOEhqfpFfjcKAfFY6+1rqmHFezsPGLtvevXIcQzZgw1aiaPreu6MSz1PrL9pLBihjlIkoZIjRoNqj9pP8CTqBDw+t/wu/10U2/yqxWiPpYHgNMljeo+mRadwjFrDTloznW4UYBM2SAXJpq1I4DFQkYXDOaQr8FwaW5P4RLNiFg78F26dyj6DfLqUbqs5gRwa37PH3JhOoGyN1vzUjuRFNWmn4XZHZyINK1a7CNbqfzzSeo/X3QSWv5W80vEySxa6tgMe5/WBRHhRn1xJJC5YOC6bkuybQvfEw+GyK2qxiWuq6k+xziV7lNYvtoJia/YnQmrrA8RX4WqfCXcgTwUQgA0deOHIcSw1vaFgwOEYd5HM/8w2pXlGaZI195U5AK/QErrB/cnC1iD2/8oGMK25gjwqJItE9mM7ae017rvk5WecTdC8n7riC++Rm8+DwwfZYtKG7NxCD7XFk1Cc9ugq5V3GL4a5fgyWGTq3TpHKmn4mWiDVkMXJwfp/aqD5AsP+3MRYcDa0vyj+ZJ7S1cJTKeWQY9td4PQXTr1Wij9PWYVDDSBmbkapLn+LHhhteJrTnZFr5OURuvr3fsql6XsEqHRpIWwsZbnk8yRjnTlIfJJiOGJd6fP25DZq4bxdlePYQ0czgHXgtuFYr7sq+TzKiE/Glw=
-  app: pure-plateau-69872
+  app: https://pure-plateau-69872.herokuapp.com
   on:
     repo: condericson/node-restaurants-app-mongoose-with-tests
